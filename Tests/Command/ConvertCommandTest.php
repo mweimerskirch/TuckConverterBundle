@@ -11,7 +11,7 @@ use Tuck\ConverterBundle\Dumper\StandardDumperFactory;
 use Tuck\ConverterBundle\File\SysTempFileFactory;
 use Tuck\ConverterBundle\Loader\StandardLoaderFactory;
 
-class ConvertCommandTest extends \PHPUnit_Framework_TestCase
+class ConvertCommandTest extends \PHPUnit\Framework\TestCase
 {
     public function testCanOutputSimpleMock()
     {

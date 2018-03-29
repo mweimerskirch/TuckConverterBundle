@@ -4,9 +4,9 @@ parameters:
 
 services:
     test.average:
-        class: %test.average.class%
+        class: '%test.average.class%'
         tags:
             - { name: test.faketag }
         arguments: ['@test.loader.factory', '@test.dumper.factory']
     test.empty:
-        class: %test.empty.class%
+        class: '%test.empty.class%'

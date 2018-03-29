@@ -8,7 +8,7 @@ use Tuck\ConverterBundle\File\SysTempFileFactory;
 use Tuck\ConverterBundle\Loader\StandardLoaderFactory;
 use Tuck\ConverterBundle\Tests\File\MockTempFileFactory;
 
-class ConfigFormatConverterTest extends \PHPUnit_Framework_TestCase
+class ConfigFormatConverterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var ConfigFormatConverter
